@@ -15,6 +15,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=850&color=57E4EF&center=true&vCenter=true&width=760&lines=Full-Stack+%C3%97+Flutter+Developer;Turning+practical+chaos+into+clean+products;Currently+exploring+AI%2FML+%2B+DSA" alt="Animated introduction" />
 
 <a href="https://github.com/Ameya5006"><img src="https://img.shields.io/badge/GitHub-Ameya5006-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+<a href="https://github.com/Ameya5006/Ameya5006/blob/main/assets/Ameya_Agarwal_resume.pdf"><img src="https://img.shields.io/badge/Resume-View_PDF-FF4238?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View Ameya Agarwal resume" /></a>
 <a href="https://boxingguruji.vercel.app/"><img src="https://img.shields.io/badge/GymFlow-Live-06B6D4?style=for-the-badge&logo=vercel&logoColor=white" alt="GymFlow live" /></a>
 <a href="https://palmchef-14qa.onrender.com"><img src="https://img.shields.io/badge/PalmChef-Live-7C3AED?style=for-the-badge&logo=render&logoColor=white" alt="PalmChef live" /></a>
 
