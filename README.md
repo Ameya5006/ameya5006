@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><a href="https://portfolio-ameya.vercel.app/">⚡ ENTER MY INTERACTIVE PORTFOLIO ↗</a></h1>
+<h1><a href="https://ameya-portfolio-5006.vercel.app/">⚡ ENTER MY INTERACTIVE PORTFOLIO ↗</a></h1>
 
 <p><strong>See the projects in motion — not just in repositories.</strong></p>
 
