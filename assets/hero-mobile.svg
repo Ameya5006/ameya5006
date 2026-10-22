@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="270" viewBox="0 0 360 270" fill="#f0f5f7" role="img" aria-labelledby="title desc">
+  <title id="title">Ameya Agarwal — developer profile</title>
+  <desc id="desc">Backend Engineering, AI / ML Systems, Full-Stack Development and Flutter Applications. Building useful systems.</desc>
+  <defs><style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,'Liberation Mono',monospace}</style></defs>
+  <rect x="1" y="1" width="358" height="268" rx="12" fill="#0d1318" stroke="#2c3c44"/>
+  <circle cx="24" cy="25" r="3" fill="#c9f57a"/>
+  <text x="35" y="30" font-size="14.5" fill="#b5c7ce">Building useful systems</text>
+  <path d="M20 44H340M20 139H340" stroke="#2c3c44"/>
+  <text x="20" y="78" font-size="40" font-weight="700" letter-spacing="-.5">AMEYA</text>
+  <text x="20" y="126" font-size="40" font-weight="700" letter-spacing="-.5">AGARWAL<tspan fill="#ff6a61">.</tspan></text>
+  <g fill="none" stroke="#47e7f2" stroke-width="1.2" opacity=".75">
+    <path d="M264 67L306 56L337 82L321 115L277 112ZM264 67L301 86L337 82M306 56L301 86L321 115M277 112L301 86"/>
+    <circle cx="301" cy="86" r="9"/>
+  </g>
+  <g fill="#47e7f2"><circle cx="264" cy="67" r="2.5"/><circle cx="306" cy="56" r="2.5"/><circle cx="337" cy="82" r="2.5"/><circle cx="321" cy="115" r="2.5"/><circle cx="277" cy="112" r="2.5"/></g>
+  <text x="20" y="166" font-size="17">Backend Engineering</text>
+  <text x="20" y="194" font-size="17">AI / ML Systems</text>
+  <text x="20" y="222" font-size="17">Full-Stack Development</text>
+  <text x="20" y="250" font-size="17">Flutter Applications</text>
+</svg>

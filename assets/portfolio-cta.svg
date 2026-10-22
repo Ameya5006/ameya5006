@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="114" viewBox="0 0 800 114" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="88" viewBox="0 0 800 88" role="img" aria-labelledby="title desc">
   <title id="title">Explore my interactive portfolio</title>
   <desc id="desc">A bordered portfolio button with a gently moving arrow. ameya5006.github.io.</desc>
   <defs><style>
@@ -7,10 +7,10 @@
     @keyframes nudge{50%{transform:translateX(7px)}}
     @media(prefers-reduced-motion:reduce){.arrow{animation:none}}
   </style></defs>
-  <path d="M1 1H777L799 23V113H23L1 91Z" fill="#47e7f2" stroke="#d3fcff" stroke-width="2"/>
-  <path d="M10 83v-72h762M28 103h760V30" fill="none" stroke="#071216" stroke-opacity=".35"/>
-  <text x="30" y="38" font-size="32" font-weight="600" letter-spacing="2">EXPLORE MY</text>
-  <text x="28" y="83" font-size="39" font-weight="800" letter-spacing="-1">INTERACTIVE PORTFOLIO</text>
-  <path d="M688 24h78v66h-78z" fill="#0a1b20"/>
-  <path class="arrow" d="M703 57h45m-15-16 16 16-16 16" fill="none" stroke="#47e7f2" stroke-width="4"/>
+  <path d="M1 1H777L799 23V87H23L1 65Z" fill="#47e7f2" stroke="#d3fcff" stroke-width="2"/>
+  <path d="M10 57v-46h762M28 77h760V30" fill="none" stroke="#071216" stroke-opacity=".35"/>
+  <text x="30" y="29" font-size="14" font-weight="400">Explore my</text>
+  <text x="30" y="61" font-size="28" font-weight="600">Interactive portfolio</text>
+  <path d="M688 19h78v50h-78z" fill="#0a1b20"/>
+  <path class="arrow" d="M703 44h45m-15-14 16 14-16 14" fill="none" stroke="#47e7f2" stroke-width="3"/>
 </svg>

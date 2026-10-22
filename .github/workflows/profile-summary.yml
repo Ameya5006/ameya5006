@@ -40,7 +40,7 @@ jobs:
         with:
           USERNAME: Ameya5006
           THEME: github_dark
-          NAME: Ameya Signal Lab
+          NAME: Ameya Agarwal
           AUTO_PUSH: false
 
       - name: Validate and style the three selected cards
@@ -80,6 +80,8 @@ jobs:
               root.insert(0, label)
               data = ET.tostring(root, encoding='utf-8')
               assert len(data) < 250_000, 'Unexpected card size'
+              assert not re.search(r'(?:ameya[\s-]+)?signal[\s-]+lab',
+                                   data.decode('utf-8'), re.I), 'Retired branding in generated SVG'
               prepared.append((filename, data))
           output = Path('assets/analytics')
           output.mkdir(parents=True, exist_ok=True)

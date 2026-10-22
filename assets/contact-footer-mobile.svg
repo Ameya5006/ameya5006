@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="96" viewBox="0 0 360 96" fill="#f0f5f7" role="img" aria-labelledby="title desc">
+  <title id="title">Let’s talk — Ameya Agarwal</title>
+  <desc id="desc">The next build starts with a conversation.</desc>
+  <defs><style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,'Liberation Mono',monospace}</style></defs>
+  <rect width="360" height="96" rx="8" fill="#0d1318"/>
+  <path d="M20 18h125l8-6 8 12 8-6h171" fill="none" stroke="#47e7f2"/>
+  <text x="20" y="48" font-size="19">Let’s talk</text>
+  <text x="20" y="76" font-size="14.5" fill="#c3d3d9">The next build starts with a conversation.</text>
+</svg>

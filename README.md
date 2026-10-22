@@ -1,9 +1,15 @@
 <p align="center">
-  <img src="assets/ameya-signal-lab.svg" width="800" alt="AMEYA SIGNAL LAB — Ameya Agarwal. Backend Engineering, AI / ML Systems, Full-Stack Development and Flutter Applications. Building useful systems." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" />
+    <img src="assets/hero.svg" width="800" alt="Ameya Agarwal. Backend Engineering, AI / ML Systems, Full-Stack Development and Flutter Applications. Building useful systems." />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://ameya5006.github.io/" target="_blank" rel="noopener noreferrer"><img src="assets/portfolio-cta.svg" width="800" alt="Explore my interactive portfolio →" /></a>
+  <a href="https://ameya5006.github.io/" target="_blank" rel="noopener noreferrer"><picture>
+    <source media="(max-width: 600px)" srcset="assets/portfolio-cta-mobile.svg" />
+    <img src="assets/portfolio-cta.svg" width="800" alt="Explore my interactive portfolio →" />
+  </picture></a>
 </p>
 
 I build reliable backends, AI/ML-powered products, full-stack web apps and Flutter applications.<br>
@@ -16,54 +22,68 @@ Follow the signal: working systems, clear boundaries, useful interfaces.
 
 ## 01 / Flagship systems
 
-<a href="https://github.com/advay-sinha/SAHAY-AI"><img src="assets/projects/sahay-ai.svg" width="800" alt="SAHAY-AI — Backend Lead on a team project. Consent-aware intake and human escalation prototype. FastAPI, WebSockets, SQLAlchemy, Alembic and Supabase PostgreSQL. Role-filtered events and human takeover." /></a>
+<p>
+  <a href="https://github.com/advay-sinha/SAHAY-AI"><picture>
+    <source media="(max-width: 600px)" srcset="assets/projects/sahay-ai-mobile.svg" />
+    <img src="assets/projects/sahay-ai.svg" width="800" alt="SAHAY-AI — Backend Lead on a team project. Consent-aware intake and human escalation prototype. FastAPI, WebSockets, SQLAlchemy, Alembic and Supabase PostgreSQL. Role-filtered events and human takeover." />
+  </picture></a>
+</p>
 
-**SAHAY-AI · Backend Lead, team project.** AI-assisted intake and human escalation prototype. I led backend work across async APIs, WebSocket event routing, consent controls and the Supabase PostgreSQL migration.
+**SAHAY-AI** · Backend Lead, team project. AI-assisted intake and human escalation prototype. I led backend work across async APIs, WebSocket event routing, consent controls and the Supabase PostgreSQL migration.
 
 `FastAPI` · `WebSockets` · `SQLAlchemy` · `Alembic` · `Supabase PostgreSQL`<br>
 **Signals:** role-filtered events · human takeover<br>
 [Inspect the repository ↗](https://github.com/advay-sinha/SAHAY-AI)
 
-<a href="https://github.com/Ameya5006/Aletheia"><img src="assets/projects/aletheia.svg" width="800" alt="Aletheia — Developer. Auditable readmission research workbench using FastAPI, React, PostgreSQL, scikit-learn and MLflow. Calibrated inference and hash-linked audit records. Educational research only." /></a>
+<p>
+  <a href="https://github.com/Ameya5006/Aletheia"><picture>
+    <source media="(max-width: 600px)" srcset="assets/projects/aletheia-mobile.svg" />
+    <img src="assets/projects/aletheia.svg" width="800" alt="Aletheia — Developer. Auditable readmission research workbench using FastAPI, React, PostgreSQL, scikit-learn and MLflow. Calibrated inference and hash-linked audit records. Educational research only." />
+  </picture></a>
+</p>
 
-**Aletheia · Developer.** An auditable workbench for manually entered readmission research cases. I built the prediction-to-review workflow: calibrated inference, reference-dependent explanations, saved history and hash-linked audit records.
+**Aletheia** · Developer. An auditable workbench for manually entered readmission research cases. I built the prediction-to-review workflow: calibrated inference, reference-dependent explanations, saved history and hash-linked audit records.
 
 `FastAPI` · `React` · `PostgreSQL` · `scikit-learn` · `MLflow`<br>
 **Signals:** calibrated inference · hash-linked audit records<br>
 [Inspect the repository ↗](https://github.com/Ameya5006/Aletheia) · [Recorded walkthrough ↗](https://github.com/Ameya5006/Aletheia/blob/main/docs/assets/demo/walkthrough.webm)<br>
-<sub>Educational research only; explanations are noncausal. Creating predictions requires provisioned access.</sub>
+Educational research only; explanations are noncausal. Creating predictions requires provisioned access.
 
 ## 02 / More builds
 
-### [GymFlow](https://github.com/Ameya5006/Dual-gym-website) · Member + admin platform
+### [GymFlow](https://github.com/Ameya5006/Dual-gym-website)
 
+Member + admin platform<br>
 I developed the full-stack membership platform for Fitness First Boxing Club and Nisha Fitness, documented as in production. Firebase Auth, Firestore and Apps Script connect member/admin workflows, Google Sheets sync, WhatsApp notifications and UPI links.
 
 `React` · `TypeScript` · `Firebase Auth / Firestore` · `Apps Script`<br>
 [Source ↗](https://github.com/Ameya5006/Dual-gym-website) · [Live site ↗](https://boxingguruji.vercel.app/)
 
-### [PalmChef](https://github.com/Ameya5006/PalmChef) · Hands-free kitchen
+### [PalmChef](https://github.com/Ameya5006/PalmChef)
 
+Hands-free kitchen<br>
 I built a React PWA cooking assistant with MediaPipe gesture navigation, voice controls and an Express backend. Gemini tool calling is implemented in source; its separate AI service is documented as awaiting deployment.
 
 `React` · `MediaPipe` · `Node.js / Express` · `Gemini API`<br>
 [Source ↗](https://github.com/Ameya5006/PalmChef) · [Live interface ↗](https://palmchef-14qa.onrender.com)
 
-### [Amedic](https://github.com/Ameya5006/Amedic) · Health, made visible
+### [Amedic](https://github.com/Ameya5006/Amedic)
 
+Health, made visible<br>
 I built a Flutter health app with pedometer input, BMI/BMR calculations and health visualizations. Its dashboard includes sample chart data, so the charts demonstrate the interface rather than a verified history of measured health data.
 
 `Flutter` · `Dart` · `pedometer` · `fl_chart`<br>
 [Source ↗](https://github.com/Ameya5006/Amedic)
 
-### [FloatChat / ARGO Mobile](https://github.com/Ameya5006/FloatChat_app) · Ocean-data explorer
+### [FloatChat / ARGO Mobile](https://github.com/Ameya5006/FloatChat_app)
 
+Ocean-data explorer<br>
 I independently developed the Flutter mobile application within the larger team project. The prototype pairs an interactive ocean map with sample ARGO float profiles; chat responses and download actions are simulated demonstrations.
 
 `Flutter` · `Dart` · `flutter_map` · `latlong2`<br>
 [Source ↗](https://github.com/Ameya5006/FloatChat_app)
 
-## `// tech_deck`
+## 03 / Technology deck
 
 <p align="center">
   <img src="assets/tech/tiles/html.svg" width="54" height="54" alt="HTML" />
@@ -121,10 +141,10 @@ I independently developed the Flutter mobile application within the larger team 
 
 </details>
 
-## 04 / GITHUB SIGNAL ANALYTICS
+## 04 / GitHub Signal Analytics
 
 <p align="center">
-  <a href="assets/analytics/profile-details.svg"><img src="assets/analytics/profile-details.svg" width="800" alt="GitHub profile activity over time, contribution totals and public repositories." /></a>
+  <a href="assets/analytics/profile-details.svg"><img src="assets/analytics/profile-details.svg" width="390" alt="GitHub profile activity over time, contribution totals and public repositories." /></a>
 </p>
 
 <p align="center">
@@ -139,7 +159,7 @@ Activity follows GitHub’s contribution rules and can differ from Git history. 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/analytics/contribution-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/analytics/contribution-snake-light.svg" />
-    <img src="assets/analytics/contribution-snake-light.svg" width="800" alt="Contribution snake from GitHub's visible contribution calendar." />
+    <img src="assets/analytics/contribution-snake-light.svg" width="390" alt="Contribution snake from GitHub's visible contribution calendar." />
   </picture>
 </p>
 
@@ -157,4 +177,9 @@ Activity follows GitHub’s contribution rules and can differ from Git history. 
 
 [Email](mailto:agarwal.ameya5006@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ameya-agarwal/) · [Portfolio](https://ameya5006.github.io/) · [GitHub](https://github.com/Ameya5006)
 
-<img src="assets/signal-footer.svg" width="800" alt="AMEYA SIGNAL LAB — end of transmission. The next build starts with a conversation." />
+<p>
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/contact-footer-mobile.svg" />
+    <img src="assets/contact-footer.svg" width="800" alt="Let’s talk. The next build starts with a conversation." />
+  </picture>
+</p>

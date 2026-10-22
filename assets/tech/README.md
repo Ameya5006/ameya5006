@@ -1,6 +1,6 @@
 # Technology deck and source artwork
 
-The profile displays **24 local SVG tiles** in [tiles/](tiles/), each with a 54 × 54 viewBox, a rounded graphite background, a muted cyan border and a centered 38 × 38 artwork canvas. Scaling is uniform in both directions. Native inline images wrap naturally; the README uses no custom CSS, JavaScript or external icon service. GitHub's level-two heading supplies the thin divider beneath `// tech_deck`.
+The profile displays **24 local SVG tiles** in [tiles/](tiles/), each with a 54 × 54 viewBox, a rounded graphite background, a muted cyan border and a centered 38 × 38 artwork canvas. Scaling is uniform in both directions. Native inline images wrap naturally; the README uses no custom CSS, JavaScript or external icon service. GitHub's level-two heading supplies the thin divider beneath `03 / Technology deck`.
 
 Every tile has a title, description and README alt text. The utility drawer includes a readable deck index so the section remains usable when images fail. Original artwork colours are preserved; only upstream neutral `#242938` container rectangles are removed. Coloured source backgrounds remain intact inside the uniform outer tile. Terminal pills use GitHub's native code styling, adapting to light and dark themes.
 
