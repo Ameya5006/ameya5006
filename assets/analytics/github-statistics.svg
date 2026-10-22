@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="156" viewBox="0 0 400 156" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub statistics — awaiting first workflow run</title>
+  <desc id="desc">Analytics activate after first workflow run. This labelled placeholder contains no counts, rankings, grades or simulated statistics.</desc>
+  <path d="M1 1H375L399 25V155H1Z" fill="#0d1318" stroke="#30434b" stroke-width="2"/>
+  <path d="M1 1h5v154H1Z" fill="#ff6a61"/>
+  <text x="22" y="39" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" fill="#47e7f2">GITHUB STATISTICS</text>
+  <text x="22" y="86" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#c3d3d9">Analytics activate after</text>
+  <text x="22" y="117" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#c3d3d9">first workflow run</text>
+  <path d="M22 137h354" stroke="#30434b"/>
+</svg>

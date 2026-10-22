@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" role="img" aria-labelledby="title desc">
+  <title id="title">FastAPI</title>
+  <desc id="desc">FastAPI logo in a graphite tile. Skill Icons artwork, MIT licensed; see ../LICENSE.skill-icons.txt.</desc>
+  <!-- Copyright (c) 2022 tandpfun; MIT licence in ../LICENSE.skill-icons.txt. -->
+  <rect x="1" y="1" width="52" height="52" rx="12" fill="#141d29" stroke="#31525f"/>
+  <g transform="translate(8 8) scale(.1484375)" fill="none">
+<rect width="256" height="256" rx="60" fill="#049789" />
+<path d="M127.5 41C79.743 41 41 79.743 41 127.5C41 175.257 79.743 214 127.5 214C175.257 214 214 175.257 214 127.5C214 79.743 175.257 41 127.5 41ZM122.993 196.839V142.581H92.8306L136.167 58.1615V112.419H165.203L122.993 196.839Z" fill="white" />
+</g>
+  
+</svg>

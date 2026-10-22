@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101" height="40" viewBox="0 0 101 40" role="img" aria-labelledby="title desc">
+  <title id="title">Gemini API</title>
+  <desc id="desc">Gemini API text badge; no substitute logo.</desc>
+  <rect x="1" y="3" width="99" height="34" rx="7" fill="#0d1318" stroke="#30434b"/>
+  <path d="M3 10v20" stroke="#47e7f2" stroke-width="2"/>
+  <text x="13" y="25" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#f0f5f7">Gemini API</text>
+</svg>

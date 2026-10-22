@@ -1,0 +1,73 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: '47 1 * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  snake:
+    if: github.repository == 'Ameya5006/ameya5006'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate dark and light SVG animations
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Ameya5006
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            .snake-output/dark.svg?palette=github-dark&color_snake=#47e7f2&color_dots=#17252d,#3d5340,#6f8f4e,#c9f57a,#ff6a61
+            .snake-output/light.svg?palette=github-light&color_snake=#47e7f2&color_dots=#e7edf0,#a2b77a,#819b4d,#597f2d,#ce514a
+
+      - name: Validate SVGs and add accessible static-motion fallback
+        shell: python
+        run: |
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          ET.register_namespace('', 'http://www.w3.org/2000/svg')
+          ns = '{http://www.w3.org/2000/svg}'
+          prepared = []
+          for theme in ('dark', 'light'):
+              root = ET.parse(f'.snake-output/{theme}.svg').getroot()
+              assert root.tag == ns + 'svg' and root.get('viewBox'), 'Expected a responsive SVG'
+              assert not any(n.tag in {ns + 'script', ns + 'foreignObject'} for n in root.iter())
+              root.set('role', 'img')
+              root.set('aria-labelledby', 'snake-title snake-desc')
+              title = ET.Element(ns + 'title', id='snake-title')
+              title.text = 'GitHub contribution snake'
+              desc = ET.Element(ns + 'desc', id='snake-desc')
+              desc.text = 'Animation of Ameya5006 public-profile contributions. Reduced-motion viewers see the static grid.'
+              root.insert(0, desc)
+              root.insert(0, title)
+              style = ET.SubElement(root, ns + 'style')
+              style.text = '@media(prefers-reduced-motion:reduce){*{animation:none!important}}'
+              data = ET.tostring(root, encoding='utf-8')
+              assert len(data) < 250_000, 'Unexpected snake size'
+              prepared.append((theme, data))
+          output = Path('assets/analytics')
+          output.mkdir(parents=True, exist_ok=True)
+          for theme, data in prepared:
+              (output / f'contribution-snake-{theme}.svg').write_bytes(data)
+
+      - name: Publish only contribution animations
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/analytics/contribution-snake-dark.svg assets/analytics/contribution-snake-light.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh contribution snake'
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"

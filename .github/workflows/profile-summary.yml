@@ -1,0 +1,96 @@
+name: Profile summary
+
+on:
+  schedule:
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+# Shared with the snake workflow so generated-file pushes cannot race.
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  summary:
+    if: github.repository == 'Ameya5006/ameya5006'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Check public-data token
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_STATS_TOKEN" ]; then
+            echo '::error::Set PROFILE_STATS_TOKEN to a fine-grained public-repositories read-only token. See .github/ANALYTICS.md.'
+            exit 1
+          fi
+
+      - name: Generate upstream cards without publishing
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.12.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        with:
+          USERNAME: Ameya5006
+          THEME: github_dark
+          NAME: Ameya Signal Lab
+          AUTO_PUSH: false
+
+      - name: Validate and style the three selected cards
+        shell: python
+        run: |
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          ET.register_namespace('', 'http://www.w3.org/2000/svg')
+          ns = '{http://www.w3.org/2000/svg}'
+          source = Path('profile-summary-card-output/github_dark')
+          cards = {
+              '0-profile-details.svg': ('profile-details.svg', 'GitHub profile activity'),
+              '1-repos-per-language.svg': ('languages-by-repository.svg', 'Public repositories by primary language'),
+              '3-stats.svg': ('github-statistics.svg', 'GitHub contribution statistics'),
+          }
+          colors = {'#0366d6': '#47e7f2', '#77909c': '#c3d3d9', '#0d1117': '#0d1318',
+                    '#2e343b': '#30434b', '#8b949e': '#ff6a61', '#40c463': '#47e7f2'}
+          prepared = []
+          for original, (filename, title) in cards.items():
+              text = (source / original).read_text(encoding='utf-8')
+              text = re.sub(r'#[0-9a-fA-F]{6}\b', lambda m: colors.get(m[0].lower(), m[0]), text)
+              root = ET.fromstring(text)
+              assert root.tag == ns + 'svg', 'Expected an SVG card'
+              assert not any(n.tag in {ns + 'script', ns + 'foreignObject'} for n in root.iter())
+              if not root.get('viewBox'):
+                  root.set('viewBox', f"0 0 {root.attrib['width']} {root.attrib['height']}")
+              root.set('role', 'img')
+              root.set('aria-labelledby', 'signal-title signal-desc')
+              label = ET.Element(ns + 'title', id='signal-title')
+              label.text = title
+              description = ET.Element(ns + 'desc', id='signal-desc')
+              description.text = 'Generated from public GitHub data at ' + datetime.now(timezone.utc).isoformat() + '. ' + ' '.join(root.itertext())
+              root.insert(0, description)
+              root.insert(0, label)
+              data = ET.tostring(root, encoding='utf-8')
+              assert len(data) < 250_000, 'Unexpected card size'
+              prepared.append((filename, data))
+          output = Path('assets/analytics')
+          output.mkdir(parents=True, exist_ok=True)
+          for filename, data in prepared:
+              (output / filename).write_bytes(data)
+
+      - name: Publish only the selected generated assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- assets/analytics/profile-details.svg assets/analytics/languages-by-repository.svg assets/analytics/github-statistics.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh GitHub signal analytics'
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"

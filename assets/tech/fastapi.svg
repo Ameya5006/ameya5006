@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="40" viewBox="0 0 105 40" role="img" aria-labelledby="title desc">
+  <title id="title">FastAPI</title>
+  <desc id="desc">FastAPI logo from Skill Icons, MIT licensed.</desc>
+  <rect x="1" y="3" width="103" height="34" rx="7" fill="#0d1318" stroke="#30434b"/>
+  <g transform="translate(8 8) scale(.09375)" fill="none">
+<rect width="256" height="256" rx="60" fill="#049789"/>
+<path d="M127.5 41C79.743 41 41 79.743 41 127.5C41 175.257 79.743 214 127.5 214C175.257 214 214 175.257 214 127.5C214 79.743 175.257 41 127.5 41ZM122.993 196.839V142.581H92.8306L136.167 58.1615V112.419H165.203L122.993 196.839Z" fill="white"/>
+</g>
+  <text x="40" y="25" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#f0f5f7">FastAPI</text>
+</svg>

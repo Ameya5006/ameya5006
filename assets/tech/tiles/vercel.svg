@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" role="img" aria-labelledby="title desc">
+  <title id="title">Vercel</title>
+  <desc id="desc">Vercel logo in a graphite tile. Skill Icons artwork, MIT licensed; see ../LICENSE.skill-icons.txt.</desc>
+  <!-- Copyright (c) 2022 tandpfun; MIT licence in ../LICENSE.skill-icons.txt. -->
+  <rect x="1" y="1" width="52" height="52" rx="12" fill="#141d29" stroke="#31525f"/>
+  <g transform="translate(8 8) scale(.1484375)" fill="none">
+<path d="M128 34L223 198.853H33L128 34Z" fill="white" />
+</g>
+  
+</svg>

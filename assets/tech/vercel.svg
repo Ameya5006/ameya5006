@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="40" viewBox="0 0 94 40" role="img" aria-labelledby="title desc">
+  <title id="title">Vercel</title>
+  <desc id="desc">Vercel logo from Skill Icons, MIT licensed.</desc>
+  <rect x="1" y="3" width="92" height="34" rx="7" fill="#0d1318" stroke="#30434b"/>
+  <g transform="translate(8 8) scale(.09375)" fill="none">
+<rect width="256" height="256" rx="60" fill="#242938"/>
+<path d="M128 34L223 198.853H33L128 34Z" fill="white"/>
+</g>
+  <text x="40" y="25" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#f0f5f7">Vercel</text>
+</svg>

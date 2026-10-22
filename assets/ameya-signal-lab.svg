@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="390" viewBox="0 0 800 390" fill="#f0f5f7" role="img" aria-labelledby="title desc">
+  <title id="title">AMEYA SIGNAL LAB — Ameya Agarwal</title>
+  <desc id="desc">Backend Engineering, AI / ML Systems, Full-Stack Development and Flutter Applications. A neural signal sculpture connects the lab. Building useful systems.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#19272d" stroke-width="1"/></pattern>
+    <linearGradient id="wash" x2="1" y2="1"><stop stop-color="#101b20"/><stop offset="1" stop-color="#090d11"/></linearGradient>
+    <linearGradient id="beam"><stop stop-color="#47e7f2" stop-opacity="0"/><stop offset=".5" stop-color="#47e7f2" stop-opacity=".25"/><stop offset="1" stop-color="#47e7f2" stop-opacity="0"/></linearGradient>
+    <clipPath id="panel"><rect x="1" y="1" width="798" height="388" rx="16"/></clipPath>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif}
+      .mono{font-family:Consolas,'Liberation Mono',monospace}
+      .packet{stroke-dasharray:6 150;animation:flow 9s linear infinite}
+      .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 6s ease-in-out infinite}
+      .scan{animation:scan 12s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-312}}
+      @keyframes pulse{50%{transform:scale(1.16);opacity:.65}}
+      @keyframes scan{0%,100%{transform:translateX(0)}50%{transform:translateX(205px)}}
+      @media(prefers-reduced-motion:reduce){.packet,.pulse,.scan{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect width="800" height="390" fill="url(#wash)"/>
+    <rect x="455" width="345" height="270" fill="url(#grid)"/>
+    <path d="M0 1H800M0 389H800" stroke="#47e7f2" stroke-opacity=".25"/>
+    <path d="M31 58H768" stroke="#2c3c44"/>
+    <text x="32" y="38" class="mono" font-size="32" letter-spacing="2" fill="#47e7f2">AMEYA SIGNAL LAB</text>
+    <path d="M737 23h13v13h-13z" fill="#ff6a61"/><path d="M756 23h13v13h-13z" fill="#47e7f2"/>
+    <g fill="none" stroke="#47e7f2" stroke-width="1.5" opacity=".65">
+      <path d="M547 98L635 83L726 133L744 215L646 236L572 185Z"/>
+      <path d="M547 98L646 154L726 133M635 83L646 154L646 236M572 185L646 154L744 215M547 98L572 185"/>
+      <ellipse cx="646" cy="154" rx="126" ry="62" transform="rotate(-25 646 154)"/>
+    </g>
+    <path class="packet" d="M547 98L646 154L744 215L646 236L572 185L635 83L726 133" fill="none" stroke="#d4fbff" stroke-width="3"/>
+    <rect class="scan" x="518" y="70" width="20" height="188" fill="url(#beam)"/>
+    <g fill="#47e7f2"><circle cx="547" cy="98" r="5"/><circle cx="635" cy="83" r="5"/><circle cx="726" cy="133" r="5"/><circle cx="744" cy="215" r="5"/><circle cx="646" cy="236" r="5"/><circle cx="572" cy="185" r="5"/></g>
+    <circle class="pulse" cx="646" cy="154" r="19" fill="#0d242b" stroke="#47e7f2" stroke-width="2"/>
+    <path d="M636 154h6l4-8 4 16 4-8h4" fill="none" stroke="#47e7f2" stroke-width="2"/>
+    <text x="28" y="143" font-size="88" font-weight="800" letter-spacing="-3">AMEYA</text>
+    <text x="28" y="226" font-size="88" font-weight="800" letter-spacing="-3">AGARWAL<tspan fill="#ff6a61">.</tspan></text>
+    <path d="M32 252H768" stroke="#2c3c44"/>
+    <text x="32" y="293" font-size="32" font-weight="600">Backend Engineering</text>
+    <text x="443" y="293" font-size="32" font-weight="600">AI / ML Systems</text>
+    <text x="32" y="335" font-size="32" font-weight="600">Full-Stack Development</text>
+    <text x="443" y="335" font-size="32" font-weight="600">Flutter Applications</text>
+    <circle cx="38" cy="368" r="4" fill="#c9f57a"/>
+    <text x="52" y="375" class="mono" font-size="32" letter-spacing="1" fill="#b5c7ce">BUILDING USEFUL SYSTEMS</text>
+    <path d="M686 367h16l5-7 7 14 7-7h47" fill="none" stroke="#47e7f2" stroke-width="2"/>
+  </g>
+  <rect x="1" y="1" width="798" height="388" rx="16" fill="none" stroke="#2c3c44"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="156" viewBox="0 0 800 156" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub profile activity — awaiting first workflow run</title>
+  <desc id="desc">Analytics activate after first workflow run. This is a labelled placeholder with no statistics or simulated activity.</desc>
+  <path d="M1 1H775L799 25V155H1Z" fill="#0d1318" stroke="#30434b" stroke-width="2"/>
+  <path d="M1 1h7v154H1Z" fill="#47e7f2"/>
+  <text x="32" y="49" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700" fill="#47e7f2">PUBLIC GITHUB ACTIVITY</text>
+  <text x="32" y="108" font-family="Arial,Helvetica,sans-serif" font-size="32" fill="#c3d3d9">Analytics activate after first workflow run</text>
+  <path d="M32 131h736" stroke="#30434b"/>
+  <circle cx="759" cy="39" r="5" fill="#c9f57a"/>
+</svg>

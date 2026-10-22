@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="40" viewBox="0 0 102 40" role="img" aria-labelledby="title desc">
+  <title id="title">Apps Script</title>
+  <desc id="desc">Apps Script text badge; no substitute logo.</desc>
+  <rect x="1" y="3" width="100" height="34" rx="7" fill="#0d1318" stroke="#30434b"/>
+  <path d="M3 10v20" stroke="#47e7f2" stroke-width="2"/>
+  <text x="13" y="25" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#f0f5f7">Apps Script</text>
+</svg>

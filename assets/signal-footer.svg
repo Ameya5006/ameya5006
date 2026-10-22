@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="76" viewBox="0 0 800 76" role="img" aria-labelledby="title desc">
+  <title id="title">AMEYA SIGNAL LAB — end of transmission</title>
+  <desc id="desc">The next build starts with a conversation. A cyan signal moves gently along the footer.</desc>
+  <defs><style>
+    .signal{stroke-dasharray:12 175;animation:travel 12s linear infinite}
+    @keyframes travel{to{stroke-dashoffset:-374}}
+    @media(prefers-reduced-motion:reduce){.signal{animation:none}}
+  </style></defs>
+  <rect width="800" height="76" rx="8" fill="#0d1318"/>
+  <path d="M24 20h340l10-7 10 14 10-7h382" fill="none" stroke="#30434b" stroke-width="2"/>
+  <path class="signal" d="M24 20h340l10-7 10 14 10-7h382" fill="none" stroke="#47e7f2" stroke-width="2"/>
+  <text x="24" y="57" font-family="Consolas,'Liberation Mono',monospace" font-size="32" fill="#c3d3d9">END TRANSMISSION / LET’S TALK</text>
+  <rect x="764" y="43" width="12" height="12" fill="#ff6a61"/>
+</svg>

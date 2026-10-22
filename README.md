@@ -1,108 +1,160 @@
-<div align="center">
+<p align="center">
+  <img src="assets/ameya-signal-lab.svg" width="800" alt="AMEYA SIGNAL LAB — Ameya Agarwal. Backend Engineering, AI / ML Systems, Full-Stack Development and Flutter Applications. Building useful systems." />
+</p>
 
-<h1><a href="https://ameya-portfolio-5006.vercel.app/">⚡ ENTER MY INTERACTIVE PORTFOLIO ↗</a></h1>
+<p align="center">
+  <a href="https://ameya5006.github.io/" target="_blank" rel="noopener noreferrer"><img src="assets/portfolio-cta.svg" width="800" alt="Explore my interactive portfolio →" /></a>
+</p>
 
-<p><strong>See the projects in motion — not just in repositories.</strong></p>
+I build reliable backends, AI/ML-powered products, full-stack web apps and Flutter applications.<br>
+Follow the signal: working systems, clear boundaries, useful interfaces.
 
-</div>
+<p align="center">
+  <img src="assets/profile-animation.gif" width="700" alt="A baboon sitting at a desk rapidly typing on a laptop." /><br>
+  <sub><a href="https://tenor.com/view/user7122-gif-21263889">Via Tenor</a></sub>
+</p>
 
----
+## 01 / Flagship systems
 
-<div align="center">
+<a href="https://github.com/advay-sinha/SAHAY-AI"><img src="assets/projects/sahay-ai.svg" width="800" alt="SAHAY-AI — Backend Lead on a team project. Consent-aware intake and human escalation prototype. FastAPI, WebSockets, SQLAlchemy, Alembic and Supabase PostgreSQL. Role-filtered events and human takeover." /></a>
 
-<img src="assets/mission-control.gif" width="100%" alt="Animated developer mission control connecting Ameya's GymFlow, PalmChef, Amedic and FloatChat projects" />
+**SAHAY-AI · Backend Lead, team project.** AI-assisted intake and human escalation prototype. I led backend work across async APIs, WebSocket event routing, consent controls and the Supabase PostgreSQL migration.
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=850&color=57E4EF&center=true&vCenter=true&width=760&lines=Full-Stack+%C3%97+Flutter+Developer;Turning+practical+chaos+into+clean+products;Currently+exploring+AI%2FML+%2B+DSA" alt="Animated introduction" />
+`FastAPI` · `WebSockets` · `SQLAlchemy` · `Alembic` · `Supabase PostgreSQL`<br>
+**Signals:** role-filtered events · human takeover<br>
+[Inspect the repository ↗](https://github.com/advay-sinha/SAHAY-AI)
 
-<a href="https://github.com/Ameya5006"><img src="https://img.shields.io/badge/GitHub-Ameya5006-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
-<a href="https://portfolio-ameya.vercel.app/Ameya_Agarwal_resume.pdf"><img src="https://img.shields.io/badge/Resume-View_PDF-FF4238?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View Ameya Agarwal resume" /></a>
-<a href="https://boxingguruji.vercel.app/"><img src="https://img.shields.io/badge/GymFlow-Live-06B6D4?style=for-the-badge&logo=vercel&logoColor=white" alt="GymFlow live" /></a>
-<a href="https://palmchef-14qa.onrender.com"><img src="https://img.shields.io/badge/PalmChef-Live-7C3AED?style=for-the-badge&logo=render&logoColor=white" alt="PalmChef live" /></a>
+<a href="https://github.com/Ameya5006/Aletheia"><img src="assets/projects/aletheia.svg" width="800" alt="Aletheia — Developer. Auditable readmission research workbench using FastAPI, React, PostgreSQL, scikit-learn and MLflow. Calibrated inference and hash-linked audit records. Educational research only." /></a>
 
-</div>
+**Aletheia · Developer.** An auditable workbench for manually entered readmission research cases. I built the prediction-to-review workflow: calibrated inference, reference-dependent explanations, saved history and hash-linked audit records.
 
----
+`FastAPI` · `React` · `PostgreSQL` · `scikit-learn` · `MLflow`<br>
+**Signals:** calibrated inference · hash-linked audit records<br>
+[Inspect the repository ↗](https://github.com/Ameya5006/Aletheia) · [Recorded walkthrough ↗](https://github.com/Ameya5006/Aletheia/blob/main/docs/assets/demo/walkthrough.webm)<br>
+<sub>Educational research only; explanations are noncausal. Creating predictions requires provisioned access.</sub>
 
-## `// identity`
+## 02 / More builds
 
-```yaml
-name: Ameya
-base: Bennett University · B.Tech CSE
-builds: [web, mobile, useful automation]
-current_mode: learn → build → ship → repeat
-```
+### [GymFlow](https://github.com/Ameya5006/Dual-gym-website) · Member + admin platform
 
-<img src="assets/status-board.svg" width="100%" alt="Current focus: full-stack products, Flutter and AI/ML, and DSA in C++" />
+I developed the full-stack membership platform for Fitness First Boxing Club and Nisha Fitness, documented as in production. Firebase Auth, Firestore and Apps Script connect member/admin workflows, Google Sheets sync, WhatsApp notifications and UPI links.
 
----
+`React` · `TypeScript` · `Firebase Auth / Firestore` · `Apps Script`<br>
+[Source ↗](https://github.com/Ameya5006/Dual-gym-website) · [Live site ↗](https://boxingguruji.vercel.app/)
+
+### [PalmChef](https://github.com/Ameya5006/PalmChef) · Hands-free kitchen
+
+I built a React PWA cooking assistant with MediaPipe gesture navigation, voice controls and an Express backend. Gemini tool calling is implemented in source; its separate AI service is documented as awaiting deployment.
+
+`React` · `MediaPipe` · `Node.js / Express` · `Gemini API`<br>
+[Source ↗](https://github.com/Ameya5006/PalmChef) · [Live interface ↗](https://palmchef-14qa.onrender.com)
+
+### [Amedic](https://github.com/Ameya5006/Amedic) · Health, made visible
+
+I built a Flutter health app with pedometer input, BMI/BMR calculations and health visualizations. Its dashboard includes sample chart data, so the charts demonstrate the interface rather than a verified history of measured health data.
+
+`Flutter` · `Dart` · `pedometer` · `fl_chart`<br>
+[Source ↗](https://github.com/Ameya5006/Amedic)
+
+### [FloatChat / ARGO Mobile](https://github.com/Ameya5006/FloatChat_app) · Ocean-data explorer
+
+I independently developed the Flutter mobile application within the larger team project. The prototype pairs an interactive ocean map with sample ARGO float profiles; chat responses and download actions are simulated demonstrations.
+
+`Flutter` · `Dart` · `flutter_map` · `latlong2`<br>
+[Source ↗](https://github.com/Ameya5006/FloatChat_app)
 
 ## `// tech_deck`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,cpp,dart&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, Python, Java, C++ and Dart" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,flutter,vite,tailwind,nodejs,express,mongodb,firebase&theme=dark" alt="React, Flutter, Vite, Tailwind CSS, Node.js, Express, MongoDB and Firebase" /><br/>
-  <img src="https://skillicons.dev/icons?i=docker,nginx,vercel,git,github,vscode&theme=dark" alt="Docker, Nginx, Vercel, Git, GitHub and VS Code" />
+  <img src="assets/tech/tiles/html.svg" width="54" height="54" alt="HTML" />
+  <img src="assets/tech/tiles/css.svg" width="54" height="54" alt="CSS" />
+  <img src="assets/tech/tiles/javascript.svg" width="54" height="54" alt="JavaScript" />
+  <img src="assets/tech/tiles/typescript.svg" width="54" height="54" alt="TypeScript" />
+  <img src="assets/tech/tiles/python.svg" width="54" height="54" alt="Python" />
+  <img src="assets/tech/tiles/cpp.svg" width="54" height="54" alt="C++" />
+  <img src="assets/tech/tiles/dart.svg" width="54" height="54" alt="Dart" />
+  <img src="assets/tech/tiles/react.svg" width="54" height="54" alt="React" />
+  <img src="assets/tech/tiles/flutter.svg" width="54" height="54" alt="Flutter" />
+  <img src="assets/tech/tiles/fastapi.svg" width="54" height="54" alt="FastAPI" />
+  <img src="assets/tech/tiles/vite.svg" width="54" height="54" alt="Vite" />
+  <img src="assets/tech/tiles/tailwind.svg" width="54" height="54" alt="Tailwind CSS" />
+  <img src="assets/tech/tiles/nodejs.svg" width="54" height="54" alt="Node.js" />
+  <img src="assets/tech/tiles/express.svg" width="54" height="54" alt="Express.js" />
+  <img src="assets/tech/tiles/mongodb.svg" width="54" height="54" alt="MongoDB" />
+  <img src="assets/tech/tiles/firebase.svg" width="54" height="54" alt="Firebase" />
+  <img src="assets/tech/tiles/postgresql.svg" width="54" height="54" alt="PostgreSQL" />
+  <img src="assets/tech/tiles/supabase.svg" width="54" height="54" alt="Supabase" />
+  <img src="assets/tech/tiles/docker.svg" width="54" height="54" alt="Docker" />
+  <img src="assets/tech/tiles/nginx.svg" width="54" height="54" alt="Nginx" />
+  <img src="assets/tech/tiles/vercel.svg" width="54" height="54" alt="Vercel" />
+  <img src="assets/tech/tiles/git.svg" width="54" height="54" alt="Git" />
+  <img src="assets/tech/tiles/github.svg" width="54" height="54" alt="GitHub" />
+  <img src="assets/tech/tiles/azure.svg" width="54" height="54" alt="Azure" />
 </p>
 
-<p align="center"><code>Gemini</code> · <code>MediaPipe</code> · <code>Firestore</code> · <code>Google Sheets API</code> · <code>Apps Script</code> · <code>JWT</code> · <code>REST APIs</code> · <code>WhatsApp</code> · <code>UPI</code></p>
+<p align="center">
+  <code>Gemini&nbsp;API</code> ·
+  <code>MediaPipe</code> ·
+  <code>SQLAlchemy</code> ·
+  <code>Alembic</code> ·
+  <code>WebSockets</code> ·
+  <code>MLflow</code> ·
+  <code>scikit&#8209;learn</code> ·
+  <code>Apps&nbsp;Script</code> ·
+  <code>JWT/RBAC</code> ·
+  <code>REST&nbsp;APIs</code> ·
+  <code>Google&nbsp;Sheets</code> ·
+  <code>WhatsApp&nbsp;workflows</code> ·
+  <code>UPI&nbsp;workflows</code>
+</p>
 
 <details>
-<summary><strong>Open the utility drawer</strong></summary>
+<summary><b>▸ Open the utility drawer</b></summary>
 
-`React 18/19` · `TypeScript 5/6` · `Vite 7/8` · `React Router` · `Framer Motion` · `Zustand` · `Mongoose` · `bcrypt.js` · `CORS` · `Zod` · `PDF.js` · `Web Speech API` · `Vitest` · `React Testing Library` · `ESLint` · `Prettier` · `PostCSS` · `Nodemon` · `fl_chart` · `pedometer` · `share_plus` · `flutter_map` · `latlong2` · `Flutter animations` · `Render`
+**Web & data** / `Zustand` · `React Router` · `Mongoose` · `Firestore` · `Firebase Authentication` · `PWA` · `Web Speech API` · `Responsive design`
+
+**Delivery & quality** / `Pytest` · `Ruff` · `Playwright` · `GitHub Actions` · `Render` · `PostgreSQL TLS/RLS`
+
+**AI workflow** / `Tool calling` · `Explainable AI (reference-based)` · `Model calibration`
+
+**Deck index** / HTML · CSS · JavaScript · TypeScript · Python · C++ · Dart · React · Flutter · FastAPI · Vite · Tailwind CSS · Node.js · Express.js · MongoDB · Firebase · PostgreSQL · Supabase · Docker · Nginx · Vercel · Git · GitHub · Azure
 
 </details>
 
----
-
-## `// project_launchpad`
-
-### `01` 🥊 [GymFlow](https://github.com/Ameya5006/Dual-gym-website) · [Live ↗](https://boxingguruji.vercel.app/)
-Two gyms, one production platform—memberships, admin dashboards, Sheets sync, WhatsApp reminders and UPI.  
-`React 19` `TypeScript 6` `Firebase` `Apps Script` `Vercel`
-
-### `02` 🍳 [PalmChef](https://github.com/Ameya5006/PalmChef) · [Live ↗](https://palmchef-14qa.onrender.com)
-Cooking without touching the screen—hand gestures, spoken recipes, timers and offline PWA support.  
-`React 18` `MediaPipe` `Gemini` `MongoDB` `Docker`
-
-### `03` ❤️ [Amedic](https://github.com/Ameya5006/Amedic)
-A pocket health dashboard for steps, goals, BMI/BMR, sleep, nutrition and shareable summaries.  
-`Flutter` `Dart` `pedometer` `fl_chart` `share_plus`
-
-### `04` 🌊 [FloatChat / ARGO Mobile](https://github.com/Ameya5006/FloatChat_app)
-An ocean-data explorer with ARGO maps, profiles, alerts, downloads and a conversational demo.  
-`Flutter` `Dart` `flutter_map` `latlong2`
-
-<p align="center"><sub>🧪 More experiments brewing: <a href="https://github.com/Ameya5006/Mechyx">Mechyx</a> · <a href="https://github.com/Ameya5006/Kyora">Kyora</a></sub></p>
-
----
-
-## `// activity_feed`
+## 04 / GITHUB SIGNAL ANALYTICS
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ameya5006&theme=radical" alt="Ameya's GitHub activity summary" />
+  <a href="assets/analytics/profile-details.svg"><img src="assets/analytics/profile-details.svg" width="800" alt="GitHub profile activity over time, contribution totals and public repositories." /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Ameya5006/neetcode-submissions"><img src="https://img.shields.io/badge/NeetCode-12_synced-00F0FF?style=for-the-badge&logo=leetcode&logoColor=050816&labelColor=050816" alt="12 NeetCode problems synced" /></a>
-  <img src="https://img.shields.io/badge/verified_streak-3_days-FF1744?style=for-the-badge&logo=codeforces&logoColor=white&labelColor=050816" alt="Three-day verified submission streak" />
+  <a href="assets/analytics/languages-by-repository.svg"><img src="assets/analytics/languages-by-repository.svg" width="390" alt="Primary-language distribution across public, non-fork repositories." /></a>
+  <a href="assets/analytics/github-statistics.svg"><img src="assets/analytics/github-statistics.svg" width="390" alt="GitHub-reported stars, contribution commits, pull requests, issues and repositories contributed to." /></a>
 </p>
 
-<p align="center"><sub>C++ · arrays · hashing · binary search · sorting · snapshot verified 5 Sep 2026</sub></p>
+Language statistics use public repositories’ primary languages; **they do not measure proficiency**.<br>
+Activity follows GitHub’s contribution rules and can differ from Git history. Open a card for full-size details.
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/analytics/contribution-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/analytics/contribution-snake-light.svg" />
+    <img src="assets/analytics/contribution-snake-light.svg" width="800" alt="Contribution snake from GitHub's visible contribution calendar." />
+  </picture>
+</p>
 
-<div align="center">
+[Follow the build log: commits, contributions and experiments ↗](https://github.com/Ameya5006?tab=overview)
 
-### `connection_port: open`
+## 05 / Ship log
 
-Open to projects, learning opportunities and interesting ideas.
+- **Hackathon** / Smart India Hackathon — **6th out of 591 teams**.
+- **Campus** / Placement Committee · Student Council, Sub Head — Operations · GeeksforGeeks core team.
+- **Sport** / District-level boxing **silver** · fencing **bronze**.
 
-<a href="https://github.com/Ameya5006"><img src="https://img.shields.io/badge/Follow_the_builds-181717?style=for-the-badge&logo=github" alt="Follow Ameya on GitHub" /></a>
-<img src="https://komarev.com/ghpvc/?username=Ameya5006&label=VISITORS&color=7C3AED&style=for-the-badge" alt="Profile visitors" />
+## 06 / Contact core
 
-<br/><br/>
+**Have a system worth building? Let’s make it real.**
 
-*Signal received. Time to build something useful.* ⚡
+[Email](mailto:agarwal.ameya5006@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ameya-agarwal/) · [Portfolio](https://ameya5006.github.io/) · [GitHub](https://github.com/Ameya5006)
 
-</div>
+<img src="assets/signal-footer.svg" width="800" alt="AMEYA SIGNAL LAB — end of transmission. The next build starts with a conversation." />
